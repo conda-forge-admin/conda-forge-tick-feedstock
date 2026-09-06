@@ -1,6 +1,6 @@
 {% set python_min = "3.12" %}
 {% set name = "conda-forge-tick" %}
-{% set version = "2026.6.50" %}
+{% set version = "2026.9.5" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/conda-forge/conda-forge-bot/archive/refs/tags/{{ version }}.tar.gz
-  sha256: bdcb576e96e152be492a641f7f3b2e130c5b5a5559bcafad420d11c7ad09148b
+  sha256: aff58c3b8bae1946f9320b0c22e0e1bda4de16173b60e31e4b0e15c07da9ce03
 
 build:
   noarch: python
